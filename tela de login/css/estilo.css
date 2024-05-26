@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+     font-size: 20px;
+    text-align: left;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400%;
+    font-style: normal;
+    /* border: 1px solid deeppink; */
+    
+   
+}
+
+
+.logo h1{
+    color: #19315f;
+    
+}
+
+
+
+.menu{
+   flex: 70%;
+  
+   text-align: right;
+   padding: 20px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 16px 20px ;
+}
+
+.menu a:hover{
+    color: deeppink;
+    border-top: 4px solid black;
+}
+
+#botao{
+    background-color: #503f7b;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+
+#botao:hover{
+   border-top: none;
+    background-color: #d3004e;
+}
+
+
+.header{
+    display: flex;
+    flex: row wrap;
+    height: 600px;
+   /* background-color: gray; */
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+}
+
+
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 4px solid pink; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #19315f;
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+
+}
+
+
+.contrato-btn{
+    text-decoration: none;
+    background-color: deeppink;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+
+}
+
+
+.contrato-btn:hover{
+    background-color: #19315f;
+}
+
+.headline p{
+    font-size: 25px;
+    text-align: left;
+}
+
+
+.img-headline{
+
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #19315f;
+
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+
+.card:hover{
+    background-color: deeppink;
+    color: white;
+    padding: 50px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+/* display:none serve para nao deixar aparecer um elemento,quando ocorrer uma determinada ação */
+.card:hover .card-text{
+    display: none;
+}
+
+/* quand voce faz uma ação com o hover para desaparecer, voce pode usar o displa block para mostrar novamente no que depois do evento */
+.card:hover .card-oculto{
+    display: block;
+}
+
+.card-oculto{
+    display: none;
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #19315f,deeppink, black);
+    text-align: center;
+    border-top:4px solid deeppink ;
+}
+
+/* footer h1{
+    text-align: center;
+    
+} */
+
+/* footer p{
+    font-size: 24px;
+} */
+
+
+.logo-roda{
+    padding: 100px;
+}
+
+
+.agencia{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400%;
+    font-style: normal;
+    color: white;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+  cursor: pointer;
+}
+
+
